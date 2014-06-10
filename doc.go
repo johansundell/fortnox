@@ -3,7 +3,7 @@
 /*
 fortnox document
  // Get a connection
- conn := NewConnection( "AUTH-TOKEN", "SECRET")
+ conn := fortnox.NewConnection( "AUTH-TOKEN", "SECRET")
  // Get a customer
  cust, _ := conn.GetCustomerByOrgNr( "ORGNR" )
  // Get an article
